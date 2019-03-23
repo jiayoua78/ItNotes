@@ -38,7 +38,7 @@ git commit -m 'delete remote somefile
 
 ## 目录结构如下
 
-```
+```bash
 project
     bin
     lib
@@ -48,7 +48,7 @@ project
 
 ## 执行如下的操作
 
-```
+```bash
 git add .
 git commit -m "add bin/ lib/ src/"
 git push origin master
