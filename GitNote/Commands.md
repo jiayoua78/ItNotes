@@ -12,7 +12,7 @@ git status #check git status
 git pull # pull from remote (will merge to local)
 git fetch # Download objects and refs from another repository
 git push # push from remote 
-
+git reset #
 git log # check log
 git log --oneline --graph #look over the git log in a simple way,the option "--graph" help you can check the branch on graph
 find . -name ".git" | xargs rm -Rf    # Cancel  manager the folder
