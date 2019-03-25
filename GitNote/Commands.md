@@ -24,7 +24,7 @@ git log  #         查看历史记录
 pwd #打印当前所在目录
 cat XX**   #      查看XX文件内容
    git reflog # 查看历史记录的版本号id
-   **git checkout -- XX** ： 把XX文件在工作区的修改全部撤销。
+   git checkout -- XX # 把XX文件在工作区的修改全部撤销。
    **git rm XX**  ：        删除XX文件
    **git remote add origin https://github.com/RTplay/testgit.git**： 关联一个远程库
    **git push -u(第一次要用-u 以后不需要) origin master** ：把当前master分支推送到远程库

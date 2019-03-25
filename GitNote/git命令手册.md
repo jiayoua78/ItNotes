@@ -1,32 +1,6 @@
 ## Git命令手册
 
-**首先**
 
-~~~bash
-git --help #获得帮助，显示常用git命令
-~~~
-
-
-
-**常用**
-
-```bash
-git add . # 添加全部文件进暂存区
-git add 文件名 #添加单个文件进暂存区
-git status # 查看工作区内文件的状态
-git commit -m "说明" # 提交更改（只会提交暂存区内的更改）
-git log   # 查看每次提交的列表，HEAD指针指向哪里
-git checkout -- 文件名 #还原还未add的文件
-git reset HEAD -- 文件名 #把文件移出暂存区（再用checkout命令可以还原文件)
-```
-
-
-
-**远程版本库**
-
-~~~bash
-ssh-keygen -t rsa -C "UserEmail" # 跟据创建密匙
-~~~
 
 
 
