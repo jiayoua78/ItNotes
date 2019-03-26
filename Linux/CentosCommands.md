@@ -10,6 +10,7 @@
 ~~~bash
 adduser phpq                         # 新建phpq用户
 passwd phpq                          # 给phpq用户设置密码
+ssh -i /root/.ssh/id_rsa root@192.168.1.2 #使用自定义密匙登录。
 ~~~
 
 2、建工作组
