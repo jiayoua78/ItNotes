@@ -37,11 +37,8 @@ git stash drop # 删除文件
 git stash pop # 恢复文件的同时 也删除文件
 ~~~
 
-
-
-
-
 **Remote**
+=======
 
 ~~~bash
 ssh-keygen -t rsa -C "UserEmail" # 跟据UserEmail创建密匙
