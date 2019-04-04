@@ -1,0 +1,12 @@
+## centos 利用yum更新git
+由于centos 自带的yum不能升级git 到最新版本，需要加入新的源才可以。
+
+```bash
+#安装源
+yum install http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-2.noarch.rpm
+#安装git
+yum install git
+#更新git
+yum update git
+```
+
